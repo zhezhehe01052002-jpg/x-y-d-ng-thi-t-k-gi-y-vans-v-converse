@@ -1,0 +1,11 @@
+/**
+ * styles/index.css — Main CSS Entry Point
+ * Import thứ tự quan trọng: base → animations → layout → components → modal
+ */
+@import './base.css';
+@import './animations.css';
+@import './layout.css';
+@import './components.css';
+@import './modal.css';
+@import './auth.css';
+
