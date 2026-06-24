@@ -1,5 +1,20 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Bước 1: Mở Terminal và di chuyển đến thư mục dự án
+Mở ứng dụng Command Prompt (CMD), PowerShell trên Windows hoặc Terminal trên macOS/Linux và chạy lệnh sau để di chuyển vào thư mục dự án:
+```powershell
+cd "c:\Users\Khang\Downloads\Bán Giày"
+```
+ Bước 2: Cài đặt các thư viện phụ thuộc (Dependencies)
+Cài đặt tất cả các thư viện cần thiết đã khai báo trong file `package.json`:
+```bash
+npm install
+```
+Bước 3: Khởi động máy chủ phát triển (Development Server)
+Chạy lệnh sau để khởi chạy trang web ở chế độ lập trình viên:
+```bash
+cmd /c npm install
+cmd /c npm run dev
+Bước 4: Truy cập vào ứng dụng
+Sau khi lệnh chạy thành công, terminal sẽ hiển thị địa chỉ local, thông thường là:
+👉 **[http://localhost:5173/](http://localhost:5173/)**
